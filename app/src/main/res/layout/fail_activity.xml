@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/StartLinearLayout">
+
+    <LinearLayout style="@style/StartLinearLayout">
+    <ImageView style="@style/SurvivorLogo"
+        android:src="@drawable/epic_fail"/>
+
+    <Button
+        android:id="@+id/reset"
+        style="@style/Buttons"
+        android:text="@string/reset_button"
+        android:onClick="newQuiz"/>
+
+    </LinearLayout>
+</ScrollView>

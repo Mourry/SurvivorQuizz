@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">SurvivorQuizz</string>
+    //Question 1
+    <string name="question_one">1. On a walk on a village, I got around a bunch of odd folks. Right now, I : </string>
+    <string name="question_one_radio_button_one">Try to engage a light talk with them</string>
+    <string name="question_one_radio_button_two">Run from them.</string>
+    <string name="question_one_radio_button_three">Munch over a snack</string>
+    <string name="question_one_radio_button_four">Begin to sing I kissed a girl from Katy Perry</string>
+
+    //Question 2
+    <string name="question_two">2. A big, hot explosion mushroom is getting too close to me. What should I do :</string>
+    <string name="question_two_radio_button_one"> I run in a atomic bunker, which happened to be just in front of me.</string>
+    <string name="question_two_radio_button_two"> I dip in a pool, which also happened to be next to me.</string>
+    <string name="question_two_radio_button_three"> Death is coming right away, lets just finish Candy Cruch 999 level</string>
+    <string name="question_two_radio_button_four"> Wait up!</string>
+
+    //Question 3
+    <string name="question_three">3. In an hostile world, I am packing my bag, I bring one of those items:</string>
+
+    //Question 4
+    <string name="question_four">4. I am starving, what should I do :</string>
+    <string name="question_four_radio_button_one"> Hunt Pokemon, gotta catch em all!</string>
+    <string name="question_four_radio_button_two"> Here is a pizza vending machine around the block!</string>
+    <string name="question_four_radio_button_three"> Grow a strawberry field</string>
+    <string name="question_four_radio_button_four"> There is a grossery shop just two miles away!</string>
+
+    //Question 5
+    <string name="question_five">5. I got hurt during an adventure and I am bleeding a lot (stumbling on a little rock can be dangerous!), I have two choices:</string>
+    <string name="question_five_checkbox_one"> It just happens that I have a medical kit on me, lets use it!</string>
+    <string name="question_five_checkbox_two"> I am a big boy, it ll pass but...</string>
+    <string name="question_five_checkbox_three"> I am crying and calling Mom till she comes!</string>
+    <string name="question_five_checkbox_four"> I dont have the choice, I have to cut my leg!</string>
+
+    //Question 6
+    <string name="question_six">6. It is very cold and snowy, I have never been good at reading a compass and it is getting late:</string>
+    <string name="question_six_radio_button_one">Thanks to Discovery Channel, I know how to build an igloo.</string>
+    <string name="question_six_radio_button_two">Google search : how to read a compass.</string>
+    <string name="question_six_radio_button_three">Oooh polar lights!!!</string>
+    <string name="question_six_radio_button_four">Skinny dipping in ice cold water.</string>
+
+    //Question 7
+    <string name="question_seven">7. I found my way back, it is getting hot here, what should I wear:</string>
+    <string name="question_seven_radio_button_one">A suit, things could be Legendary!</string>
+    <string name="question_seven_radio_button_two">A space suit, dont know where things could go.</string>
+    <string name="question_seven_radio_button_three">A towel.</string>
+    <string name="question_seven_radio_button_four">Nothing.</string>
+
+    //Question 8
+    <string name="question_eight">8. A big dragon stands in my way, in two tasks:</string>
+    <string name="question_eight_checkbox_one">I just attack it!</string>
+    <string name="question_eight_checkbox_two">It is a big dragon here, lets go back and find a better way</string>
+    <string name="question_eight_checkbox_three">I talk to it, I happened to have dragon spanish as third language!</string>
+    <string name="question_eight_checkbox_four">Take a selfie with the dragon, and post it in instagram!</string>
+
+    //Question 9
+    <string name="question_nine">9. A mage is standing on the path, and speaks a nonsense riddle about a veggie, I find the veggie name or I die:</string>
+    <string name="question_nine_hint">Obviously?</string>
+
+    //Question 10
+    <string name="question_ten">10. A cutie kitten just met me:</string>
+    <string name="question_ten_radio_button_one">I run from it screaming!</string>
+    <string name="question_ten_radio_button_two">I watched tons of lolcats on YouTube, I can andle it!</string>
+    <string name="question_ten_radio_button_three">I just go backward. I cant stand cats...</string>
+    <string name="question_ten_radio_button_four">I start crying rainbows.</string>
+
+    //Buttons
+    <string name="result_button">Submit the answers</string>
+    <string name="reset_button">New quiz</string>
+    <string name="start_button">Start the quiz !</string>
+
+</resources>
+

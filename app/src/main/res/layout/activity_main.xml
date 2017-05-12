@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    style="@style/ScrollViewStyle"
+    tools:context="com.example.android.survivorquizz.MainActivity">
+
+    <LinearLayout style="@style/MainLinearLayout">
+
+
+        <ImageView
+            style="@style/QuestionImageStyle"
+            android:src="@drawable/question_one" />
+        <TextView
+            android:id="@+id/questionOne"
+            style="@style/QuestionBoxStyle"
+            android:text="@string/question_one" />
+        <RadioGroup style="@style/RadioGroup">
+            <RadioButton
+                android:id="@+id/questionOne_radio_button1"
+                style="@style/CheckboxeRadioButtonStyle"
+                android:text="@string/question_one_radio_button_one" />
+            <RadioButton
+                android:id="@+id/questionOne_radio_button2"
+                style="@style/CheckboxeRadioButtonStyle"
+                android:text="@string/question_one_radio_button_two" />
+            <RadioButton
+                android:id="@+id/questionOne_radio_button3"
+                style="@style/CheckboxeRadioButtonStyle"
+                android:text="@string/question_one_radio_button_three" />
+            <RadioButton
+                android:id="@+id/questionOne_radio_button4"
+                style="@style/CheckboxeRadioButtonStyle"
+                android:text="@string/question_one_radio_button_four" />
+        </RadioGroup>
+
+
+        <ImageView
+            style="@style/QuestionImageStyle"
+            android:src="@drawable/question_two"/>
+        <TextView
+            android:id="@+id/questionTwo"
+            style="@style/QuestionBoxStyle"
+            android:text="@string/question_two"/>
+        <RadioGroup style="@style/RadioGroup">
+            <RadioButton
+                android:id="@+id/questionTwo_radio_button1"
+                style="@style/CheckboxeRadioButtonStyle"
+                android:text="@string/question_two_radio_button_one"/>
+            <RadioButton
+                android:id="@+id/questionTwo_radio_button2"
+                style="@style/CheckboxeRadioButtonStyle"
+                android:text="@string/question_two_radio_button_two"/>
+            <RadioButton
+                android:id="@+id/questionTwo_radio_button3"
+                style="@style/CheckboxeRadioButtonStyle"
+                android:text="@string/question_two_radio_button_three"/>
+            <RadioButton
+                android:id="@+id/questionTwo_radio_button4"
+                style="@style/CheckboxeRadioButtonStyle"
+                android:text="@string/question_two_radio_button_four"/>
+        </RadioGroup>
+
+
+        <ImageView
+            style="@style/QuestionImageStyle"
+            android:src="@drawable/q3"/>
+        <TextView
+            android:id="@+id/questionThree"
+            style="@style/QuestionBoxStyle"
+            android:text="@string/question_three"/>
+        <LinearLayout style="@style/ImageLinearLayout">
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/comicbook"/>
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/gamersit"/>
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/picnictable"/>
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/sunscreen"/>
+        </LinearLayout>
+        <RadioGroup style="@style/RadioGroupHorizontal">
+            <RadioButton
+                android:id="@+id/questionThree_radio_button1"
+                style="@style/HorizontalRadioButton"/>
+            <RadioButton
+                android:id="@+id/questionThree_radio_button2"
+                style="@style/HorizontalRadioButton"/>
+            <RadioButton
+                android:id="@+id/questionThree_radio_button3"
+                style="@style/HorizontalRadioButton"/>
+            <RadioButton
+                android:id="@+id/questionThree_radio_button4"
+                style="@style/HorizontalRadioButton"/>
+        </RadioGroup>
+
+
+        <ImageView
+            style="@style/QuestionImageStyle"
+            android:src="@drawable/question_four"/>
+        <TextView
+            android:id="@+id/questionFour"
+            style="@style/QuestionBoxStyle"
+            android:text="@string/question_four"/>
+        <RadioGroup style="@style/RadioGroup">
+        <RadioButton
+            android:id="@+id/questionFour_radio_button1"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_four_radio_button_one"/>
+        <RadioButton
+            android:id="@+id/questionFour_radio_button2"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_four_radio_button_two"/>
+        <RadioButton
+            android:id="@+id/questionFour_radio_button3"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_four_radio_button_three"/>
+        <RadioButton
+            android:id="@+id/questionFour_radio_button4"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_four_radio_button_four"/>
+        </RadioGroup>
+
+
+        <ImageView
+            style="@style/QuestionImageStyle"
+            android:src="@drawable/question_five"/>
+        <TextView
+            android:id="@+id/questionFive"
+            style="@style/QuestionBoxStyle"
+            android:text="@string/question_five"/>
+        <CheckBox
+            android:id="@+id/questionFive_Checkbox1"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_five_checkbox_one"/>
+        <CheckBox
+            android:id="@+id/questionFive_Checkbox2"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_five_checkbox_two"/>
+        <CheckBox
+            android:id="@+id/questionFive_Checkbox3"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_five_checkbox_three"/>
+        <CheckBox
+            android:id="@+id/questionFive_Checkbox4"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_five_checkbox_four"/>
+
+
+        <ImageView
+            style="@style/QuestionImageStyle"
+            android:src="@drawable/question_six"/>
+        <TextView
+            android:id="@+id/questionSix"
+            style="@style/QuestionBoxStyle"
+            android:text="@string/question_six"/>
+        <RadioGroup style="@style/RadioGroup">
+            <RadioButton
+                android:id="@+id/questionSix_radio_button1"
+                style="@style/CheckboxeRadioButtonStyle"
+                android:text="@string/question_six_radio_button_one"/>
+            <RadioButton
+                android:id="@+id/questionSix_radio_button2"
+                style="@style/CheckboxeRadioButtonStyle"
+                android:text="@string/question_six_radio_button_two"/>
+            <RadioButton
+                android:id="@+id/questionSix_radio_button3"
+                style="@style/CheckboxeRadioButtonStyle"
+                android:text="@string/question_six_radio_button_three"/>
+            <RadioButton
+                android:id="@+id/questionSix_radio_button4"
+                style="@style/CheckboxeRadioButtonStyle"
+                android:text="@string/question_six_radio_button_four"/>
+        </RadioGroup>
+
+
+        <ImageView
+            style="@style/QuestionImageStyle"
+            android:src="@drawable/q7"/>
+        <TextView
+            android:id="@+id/questionSeven"
+            style="@style/QuestionBoxStyle"
+            android:text="@string/question_seven"/>
+
+        <LinearLayout style="@style/ImageLinearLayout">
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/astronaute"/>
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/suit"/>
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/towel"/>
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/nothing"/>
+        </LinearLayout>
+
+        <RadioGroup style="@style/RadioGroupHorizontal">
+            <RadioButton
+                android:id="@+id/questionSeven_radio_button1"
+                style="@style/HorizontalRadioButton"/>
+            <RadioButton
+                android:id="@+id/questionSeven_radio_button2"
+                style="@style/HorizontalRadioButton"/>
+            <RadioButton
+                android:id="@+id/questionSeven_radio_button3"
+                style="@style/HorizontalRadioButton"/>
+            <RadioButton
+                android:id="@+id/questionSeven_radio_button4"
+                style="@style/HorizontalRadioButton"/>
+        </RadioGroup>
+
+
+        <ImageView
+            style="@style/QuestionImageStyle"
+            android:src="@drawable/question_eight"/>
+        <TextView
+            android:id="@+id/questionEight"
+            style="@style/QuestionBoxStyle"
+            android:text="@string/question_eight"/>
+        <CheckBox
+            android:id="@+id/questionEight_Checkbox1"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_eight_checkbox_one"/>
+        <CheckBox
+            android:id="@+id/questionEight_Checkbox2"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_eight_checkbox_two"/>
+        <CheckBox
+            android:id="@+id/questionEight_Checkbox3"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_eight_checkbox_three"/>
+        <CheckBox
+            android:id="@+id/questionEight_Checkbox4"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_eight_checkbox_four"/>
+
+
+        <ImageView
+            style="@style/QuestionImageStyle"
+            android:src="@drawable/question_nine"/>
+        <TextView
+            android:id="@+id/questionNine"
+            style="@style/QuestionBoxStyle"
+            android:text="@string/question_nine"/>
+        <EditText
+            android:id="@+id/questionNine_Edit_Text"
+            style="@style/EditText"/>
+
+
+        <ImageView
+            style="@style/QuestionImageStyle"
+            android:src="@drawable/question_ten"/>
+        <TextView
+            android:id="@+id/questionTen"
+            style="@style/QuestionBoxStyle"
+            android:text="@string/question_ten"/>
+        <RadioGroup style="@style/RadioGroup">
+        <RadioButton
+            android:id="@+id/questionTen_radio_button1"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_ten_radio_button_one"/>
+        <RadioButton
+            android:id="@+id/questionTen_radio_button2"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_ten_radio_button_two"/>
+        <RadioButton
+            android:id="@+id/questionTen_radio_button3"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_ten_radio_button_three"/>
+        <RadioButton
+            android:id="@+id/questionTen_radio_button4"
+            style="@style/CheckboxeRadioButtonStyle"
+            android:text="@string/question_ten_radio_button_four"/>
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/submit_button"
+            style="@style/Buttons"
+            android:text="@string/result_button"
+            android:onClick="checkAnswers"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

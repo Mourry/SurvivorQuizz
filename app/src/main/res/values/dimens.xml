@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="layout_marginBottom">3dp</dimen>
+    <dimen name="layout_marginLeft">16dp</dimen>
+    <dimen name="paddingLeft">8dp</dimen>
+    <dimen name="large_paddingLeft">30dp</dimen>
+    <dimen name="logo_margin">50dp</dimen>
+    <dimen name="question_font_size">18sp</dimen>
+    <dimen name="Button_text_size">20sp</dimen>
+    <dimen name="button_dimen">150dp</dimen>
+</resources>

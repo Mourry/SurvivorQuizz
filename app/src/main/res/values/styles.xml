@@ -1,0 +1,145 @@
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/mainBackgroundColor</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/mainBackgroundColor</item>
+        <item name="android:navigationBarColor">@color/mainBackgroundColor</item>
+        <item name="android:statusBarColor">@color/mainBackgroundColor</item>
+    </style>
+
+    <!-- Style of activity_main.xml-->
+
+        <style name="ScrollViewStyle">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">match_parent</item>
+        </style>
+
+        <style name="MainLinearLayout">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">match_parent</item>
+            <item name="android:orientation">vertical</item>
+            <item name="android:descendantFocusability">beforeDescendants</item>
+            <item name="android:focusable">true</item>
+            <item name="android:focusableInTouchMode">true</item>
+            <item name="android:background">@color/mainBackgroundColor</item>
+        </style>
+
+        <!-- Style of question image-->
+            <style name="QuestionImageStyle">
+                <item name="android:layout_width">match_parent</item>
+                <item name="android:layout_height">wrap_content</item>
+                <item name="android:scaleType">fitXY</item>
+                <item name="android:layout_margin">@dimen/layout_marginBottom</item>
+                <item name="android:paddingTop">@dimen/margin</item>
+            </style>
+
+        <!-- Style of question box -->
+            <style name="QuestionBoxStyle">
+                <item name="android:layout_width">match_parent</item>
+                <item name="android:layout_height">wrap_content</item>
+                <item name="android:textColor">@color/QuestionTextColor</item>
+                <item name="android:textSize">@dimen/question_font_size</item>
+                <item name="android:layout_margin">@dimen/margin</item>
+                <item name="android:background">@color/QuestionBackgroundColor</item>
+            </style>
+
+        <!-- Radio groups -->
+            <style name="RadioGroup">
+                <item name="android:layout_width">match_parent</item>
+                <item name="android:layout_height">wrap_content</item>
+            </style>
+
+        <!-- Style of checkboxes and radio buttons-->
+            <style name="CheckboxeRadioButtonStyle">
+                <item name="android:layout_width">match_parent</item>
+                <item name="android:layout_height">wrap_content</item>
+                <item name="android:textColor">@color/QuestionTextColor</item>
+                <item name="android:background">@color/QuestionBackgroundColor</item>
+                <item name="android:layout_marginBottom">@dimen/layout_marginBottom</item>
+                <item name="android:layout_marginLeft">@dimen/layout_marginLeft</item>
+                <item name="android:layout_marginRight">@dimen/margin</item>
+                <item name="android:paddingLeft">@dimen/paddingLeft</item>
+            </style>
+
+        <!-- Style of image radio buttons -->
+            <style name="ImageLinearLayout">
+                <item name="android:layout_width">match_parent</item>
+                <item name="android:layout_height">wrap_content</item>
+                <item name="android:orientation">horizontal</item>
+                <item name="android:layout_margin">@dimen/margin</item>
+            </style>
+
+            <style name="ImageView">
+                <item name="android:layout_width">0dp</item>
+                <item name="android:layout_height">100dp</item>
+                <item name="android:layout_weight">1</item>
+                <item name="android:scaleType">fitXY</item>
+            </style>
+
+            <style name="RadioGroupHorizontal">
+                <item name="android:layout_width">match_parent</item>
+                <item name="android:layout_height">wrap_content</item>
+                <item name="android:orientation">horizontal</item>
+                <item name="android:background">@color/QuestionBackgroundColor</item>
+                <item name="android:layout_margin">@dimen/margin</item>
+            </style>
+
+            <style name="HorizontalRadioButton">
+                <item name="android:layout_width">0dp</item>
+                <item name="android:layout_height">wrap_content</item>
+                <item name="android:layout_weight">1</item>
+                <item name="android:layout_centerHorizontal">true</item>
+                <item name="android:layout_marginLeft">@dimen/large_paddingLeft</item>
+            </style>
+
+        <!-- Style of EditText-->
+        <style name="EditText">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:inputType">textCapWords</item>
+            <item name="android:maxLines">1</item>
+            <item name="android:textColorHint">@color/QuestionBackgroundColor</item>
+            <item name="android:textColor">@color/QuestionBackgroundColor</item>
+            <item name="android:hint">@string/question_nine_hint</item>
+            <item name="android:backgroundTint">@color/QuestionBackgroundColor</item>
+            <item name="android:layout_marginLeft">@dimen/layout_marginLeft</item>
+            <item name="android:layout_marginStart">@dimen/layout_marginLeft</item>
+            <item name="android:layout_marginBottom">@dimen/margin</item>
+            <item name="android:layout_marginTop">@dimen/margin</item>
+            <item name="android:layout_marginRight">@dimen/margin</item>
+            <item name="android:layout_marginEnd">@dimen/margin</item>
+        </style>
+
+        <!-- Style of buttons-->
+        <style name="Buttons">
+            <item name="android:layout_width">@dimen/button_dimen</item>
+            <item name="android:layout_height">@dimen/button_dimen</item>
+            <item name="android:layout_gravity">center</item>
+            <item name="android:textColor">@color/ButtonTextColor</item>
+            <item name="android:textSize">@dimen/Button_text_size</item>
+            <item name="android:background">@drawable/buttonshape</item>
+            <item name="android:shadowColor">@color/ButtonShadowColor</item>
+        </style>
+
+
+        <!-- Style of Start Page Quiz-->
+        <style name="StartLinearLayout">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">match_parent</item>
+            <item name="android:orientation">vertical</item>
+            <item name="android:background">@color/mainBackgroundColor</item>
+        </style>
+
+        <style name="SurvivorLogo">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_marginTop">@dimen/logo_margin</item>
+            <item name="android:layout_marginBottom">@dimen/margin</item>
+        </style>
+
+
+</resources>
